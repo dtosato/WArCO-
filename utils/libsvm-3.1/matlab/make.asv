@@ -1,0 +1,10 @@
+% This make.m is used under Windows
+
+% add -largeArrayDims on 64-bit machines
+
+mex -O -largeArrayDims -I..\ -c ..\svm.cpp -largeArrayDims
+mex -O -largeArrayDims -I..\ -c svm_model_matlab.c -largeArrayDims
+mex -O -largeArrayDims -I..\ svmtrain.c svm.obj svm_model_matlab.obj -largeArrayDims
+mex -O -largeArrayDims -I..\ svmpredict.c svm.obj svm_model_matlab.obj -largeArrayDims
+mex -O -largeArrayDims libsvmread.c -largeArrayDims
+mex -O -largeArrayDims libsvmwrite.c -largeArrayDims
