@@ -31,11 +31,11 @@ This is an implementation of a multi-class classifier and regressor based on a p
 
 ## How to start
 
-* Create a the directory 'WARCO\database' and unzip all the datasets in that folder.
-* Add the paths of WARCO to Matlab with 'addpath(genpath(WARCO\path));'
-* Type 'help WARCO' to know how WARCO is organized.
-* Switch to the WARCO folder typing 'cd WARCO\path;'
-* Use the 'test_*' scripts to test WARCO. Be sure to set the right data path into the testing scripts.
+* Create a the directory `WARCO\database` and unzip all the datasets in that folder.
+* Add the paths of WARCO to Matlab with `addpath(genpath(WARCO\path));`
+* Type `help WARCO` to know how WARCO is organized.
+* Switch to the WARCO folder typing `cd WARCO\path;`
+* Use the `test_*` scripts to test WARCO. Be sure to set the right data path into the testing scripts.
 
 ## Reference
 
